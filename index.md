@@ -10,9 +10,7 @@ Hello, world!
 
 ## This is header 2
 
-[Link] [1]
-
-[1] https://ucsd-cse15l-w23.github.io/week/week1/
+https://ucsd-cse15l-w23.github.io/week/week1/
 
 ![Image](https://i1.wp.com/brihealthy.com/wp-content/uploads/2016/08/IMG_4352.jpg)
 
