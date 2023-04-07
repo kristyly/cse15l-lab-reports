@@ -52,7 +52,7 @@ Instead, enter your CSE 15L account username. (The username that begins with **c
 
 Next, you will click on the option **I want to reset my course-specific account password.**
 
-``insert photo here``
+![Image](1.6.jpg)
 
 You will receive a DUO Authentification notice, accept it and then confirm your email on the following page. In your email inbox, you will receive a link to reset your password.
 Make sure to **remember your new password**.
@@ -71,7 +71,7 @@ Visual Studio Code is offered for all major operating systems, such as macOS (fo
 
 After installing, you will see a window that looks like this (You might have different colors or menu bar depending on your system and settings):
 
-``insert photo here``
+![image](2.1.jpg)
 
 ## Step 3: Connecting to Remote Server
 
@@ -83,14 +83,72 @@ access the link here:
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
 After you have installed git, we will now set your default terminal to **git bash**. Here are the steps to do this:
-1. Open Visual Studio Code and open a terminal. You can do this by going to the top bar > Select **Terminal** > Select **New Terminal** `image`
-2. Open the command palette by holding `ctrl` + `shift` + `P` `image`
-3. In the command palette, type in **Terminal: Select Default Profile** `image`
-4. Select **Git Bash** from the listed options `image`
-5. On the right side of the terminal, click on the `+` button. This will open a new Git Bash terminal. `image`
-6. If needed, you can switch back to powershell by clicking on the drop down butoon next to `+`. `image`
+1. Open Visual Studio Code and open a terminal. You can do this by going to the top bar > Select **Terminal** > Select **New Terminal**
+2. Open the command palette by holding `ctrl` + `shift` + `P`
+3. In the command palette, type in **Terminal: Select default Profile**
+4. Select **Git Bash** from the listed options
+5. On the right side of the terminal, click on the `+` button. This will open a new Git Bash terminal.
+6. If needed, you can switch back to powershell by clicking on the drop down butoon next to `+`.
 
-Now, in a Git Bash terminal, you will connect to 
+Now, in a Git Bash terminal, you will connect to the remote server. To do this, open a new terminal. If you followed the directions
+above, your terminal will automatically be set to a Git Bash terminal.
+
+Next, type in the following into the terminal (Replace the blanks with your specified letters):
+  
+```
+ssh cs15lsp23__@ieng6.ucsd.edu
+```
+
+You may recieve the following notice if you are logging in for the first time:
+
+```
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+
+Go ahead and type in yes.
+  
+Then, the terminal will prompt you to input your password. You will most likely not be able to see what you type show up in the terminal. This is fine, just type in your password and click `enter` on your keyboard.
+  
+After entering your password, you will see the following:
+  
+```
+Last login: Wed Mar 22 17:11:55 2023 from 128.54.194.38
+Attempting to create directory /home/linux/ieng6/cs15lsp23/cs15lsp23ii/perl5
+============================ NOTICE =================================
+Authorized use of this system is limited to password-authenticated
+usernames which are issued to individuals and are for the sole use of
+the person to whom they are issued.
+
+*** Access our Linux ssh terminals or remote desktops via a web browser at: ***
+    https://linuxcloud.ucsd.edu
+
+    All accounts must be enrolled in Duo for access. No VPN required.
+
+
+-------------------------------------------------------
+
+Hello cs15lsp23ii, you are currently logged into ieng6-202.ucsd.edu
+
+You are using 0% CPU on this system
+
+Cluster Status 
+Hostname     Time    #Users  Load  Averages  
+ieng6-201   10:25:01   8  0.25,  0.12,  0.13
+ieng6-202   10:25:01   3  0.00,  0.04,  0.10
+ieng6-203   10:25:01   7  0.01,  0.06,  0.12
+
+
+Fri Apr 07, 2023 10:25am - Prepping cs15lsp23
+```
+
+This means you have successfully signed it! Now, you can test out some commands.
+
+On the remote server:
+* cd
+* 
+
 
 
 
