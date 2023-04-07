@@ -9,7 +9,7 @@ You can also access the link here:
   
 https://sdacs.ucsd.edu/~icc/index.php
   
-`insert photo here`
+![Image](1.1.jpg)
 
 After logging in, you will see a section called **Additional Accounts**. In this section, click on the button that is labeled with **cse15lsp23**. This is your 
 CSE 15L account username. Please note that each student has different letters after cse15lsp23, meaning that your account will most likely have two letters that is not 
