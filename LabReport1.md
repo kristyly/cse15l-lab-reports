@@ -7,16 +7,17 @@ To find your CSE 15L account, open this [link](https://sdacs.ucsd.edu/~icc/index
 (It is the first part of your email, before the @ucsd.edu) and your PID. Then, click **Submit Query**.
 You can also access the link here:
   
-https://sdacs.ucsd.edu/~icc/index.php
-  
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+
+    
 ![Image](1.1.jpg)
 
-After logging in, you will see a section called **Additional Accounts**. In this section, click on the button that is labeled with **cse15lsp23**. This is your 
-CSE 15L account username. Please note that each student has different letters after cse15lsp23, meaning that your account will most likely have two letters that is not 
+After logging in, you will see a section called **Additional Accounts**. In this section, click on the button that is labeled with **cs15lsp23**. This is your 
+CSE 15L account username. Please note that each student has different letters after cs15lsp23, meaning that your account will most likely have two letters that is not 
 ii. This does not impact anything, go ahead and click on the button.
-
-`insert photo here`
-
+  
+![Image](1.2.jpg)
+  
 In this page, you will see a box underneath your username that states:
 
 ```
@@ -26,12 +27,12 @@ If you know the password for your personal account, you can use that password to
 ```
 
 Click on **Global Password Change Tool**.
-
-``insert photo here``
-
+  
+![Image](1.3.jpg)
+  
 Now, you will see a section on the page called **Student, AX, or Course-Specific Student Accounts**. In this section, click **Proceed to the Password Change Tool**.
 
-``insert photo here``
+![Image](1.4.jpg)
 
 Make sure that this page is called **UC San Diego Active Directory (AD) Password Change Tool**. Then, scroll down to the very bottom. You will see a box like so:
 
@@ -45,9 +46,9 @@ Enter your username:
 
 ```
 The username you enter will **NOT** be your UC San Diego username. Entering your UC San Diego username will change your UC San Diego Active Directory account.
-Instead, enter your CSE 15L account username. (The username that begins with **cse15lsp23**.
+Instead, enter your CSE 15L account username. (The username that begins with **cs15lsp23**.
 
-``insert photo here``
+![Image](1.5.jpg)
 
 Next, you will click on the option **I want to reset my course-specific account password.**
 
@@ -66,7 +67,7 @@ For those who are using their personal laptops, if you already have Visual Studi
 If not, go to this [Link](https://code.visualstudio.com/) and follow the on-screen directions to download Visual Studio Code.
 Visual Studio Code is offered for all major operating systems, such as macOS (for Macs) and Windows (for PCs). The link can also be accessed here:  
 
-https://code.visualstudio.com/
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 After installing, you will see a window that looks like this (You might have different colors or menu bar depending on your system and settings):
 
@@ -79,7 +80,7 @@ The following steps only apply to Windows users.
 First, you need to install **git** for Windows at this [link](https://gitforwindows.org/). git offers many tools we will be using in the near future. You can also
 access the link here:  
 
-https://gitforwindows.org/
+[https://gitforwindows.org/](https://gitforwindows.org/)
 
 After you have installed git, we will now set your default terminal to **git bash**. Here are the steps to do this:
 1. Open Visual Studio Code and open a terminal. You can do this by going to the top bar > Select **Terminal** > Select **New Terminal** `image`
