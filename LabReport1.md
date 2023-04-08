@@ -73,6 +73,9 @@ After installing, you will see a window that looks like this (You might have dif
 
 ![image](2.1.jpg)
 
+REFLECTION (VISUAL STUDIO CODE):
+I already had VS Code downloaded for a previous class, so I did not need to do anything.
+
 ## Step 3: Connecting to Remote Server
 
 The following steps only apply to Windows users.  
@@ -143,11 +146,14 @@ ieng6-203   10:25:01   7  0.01,  0.06,  0.12
 Fri Apr 07, 2023 10:25am - Prepping cs15lsp23
 ```
 
-This means you have successfully signed it! Now, you can test out some commands.
+This means you have successfully signed it!
 
-On the remote server:
-* cd
-* 
+REFLECTION (REMOTE ACCESS):
+I had trouble with this step during the lab as I could not sign in to my account due to IT issues. I tried again on a later date and could still not log in. However, in order to make this step, I referred to the lab details that were provided for this section. Due to this, I do not have any photos that could properly show this step.
+
+## Step 4: Trying Out Commands
+
+
 
 
 
