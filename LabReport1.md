@@ -162,18 +162,24 @@ Personal Computer:
 
 REFLECTION (COMMANDS):
 The pwd command gave me my current working directory location. For example, if I had this in my terminal: `C:\Users\krist\OneDrive\Desktop>`. Then, the pwd command would give me that as an output. 
-
-
-
+  
+![Image](4.1.jpg)
+  
 Next, I tried the cd command, which changed my active directory. 
 `cd ~` would return me to my home directory. Then, I could I use the ls command to list further directories in my active directory.
 After that, I used `cd <directory>` to enter a directory within my active one.
-
+  
+![Image](4.2.jpg)
+  
 the mkdir command created new directories in the directory I was located in. Additionally, if I wrote `mkdir D1/D2/D3`, it would make D1 in my current directory, D2 in D1, and D3 in D2.
-
-Finally, the cp command copied one path and put it in another path. For instance, `cp hello.txt Messages2` would copy the file hello.txt and put it into the directory, Messages2. It is possible to copy a specified directories to access a path, but I could not put it into a directory nested within another directory.
-
+  
+![Image](4.3.jpg)
+  
+Finally, the cp command copied one path and put it in another path. For instance, `cp Messages/english.txt D1` would copy the file hello.txt and put it into the directory, D1. From my observations, the new location must be located in the active directory and must not be nested.
+  
+![Image](4.4.jpg)
+  
 As for the remote access server, since I could not log into the server, I was not able to test out the commands listed. However, since it is also a terminal, I am assuming that the commands will work the same way as it did on my personal computer. 
 
-
+  
 
