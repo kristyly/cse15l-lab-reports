@@ -41,4 +41,14 @@ class StringServer {
 }
 
 ```
-![Screenshot 1](Lab 2 1.1.jpg)
+![Image](2.1.1.jpg)
+
+Methods Used: handleRequest()
+* URL: localhost/2434
+* parameters[1]: This is Message 1 - Hello!
+
+![Image](2.1.2.jpg)
+
+Methods Used: handleRequest()
+* URL: localhost/2434
+* parameters[1]: This is Message 2 - Have A Great Day!
