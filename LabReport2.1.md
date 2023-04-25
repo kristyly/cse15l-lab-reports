@@ -54,3 +54,6 @@ Methods Used: handleRequest()
 * URL: localhost/2434
 * parameters[1]: This is Message 2 - Have A Great Day!
 * ArrayAsString: "This is Message 1 - Hello! \n This is Message 2 - Have A Great Day!"
+
+Home Page:
+![Image](2.1.3.jpg)
