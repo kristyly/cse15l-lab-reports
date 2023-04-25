@@ -41,4 +41,4 @@ class StringServer {
 }
 
 ```
-
+![Screenshot 1](Lab 2 1.1.jpg)
