@@ -3,10 +3,11 @@
 
 The command I will research is `grep`. My working directory is `/technical`.
 
+### Command 1
 ```
 $ grep -r "<string>" /path-to-directory/
 ```
-To search for a string in a directory and its subdirectories, we can use the command above. The output will be the line with the specified string highlighted and its file path.
+To search for a string in a directory and its subdirectories, we can use the command above. The output will be the line with the specified string highlighted and its file path. I found this command on this [website.](https://www.howtogeek.com/496056/how-to-use-the-grep-command-on-linux/)
 
 Example 1:
 ```
@@ -41,10 +42,11 @@ plos/pmed.0020216.txt:        causes of poverty and inequality, which give rise 
 In this example, I am searching for the string `poverty a`, but I did not specify the directory. This automatically searches for the string in my current working directory
 and all subdirectories, as you can see in the path. This is useful when I am looking for a specific topic on a much larger scale.
 
+### Command 2
 ```
 $ grep -v "<string>" /file/
 ```
-This command searches for all lines that do not contained the specified string. The output will be all of the lines that do not contain the specified string in the listed file.
+This command searches for all lines that do not contained the specified string. The output will be all of the lines that do not contain the specified string in the listed file. I found this command on this [website.](https://www.howtogeek.com/496056/how-to-use-the-grep-command-on-linux/)
 
 Example 1:
 ```
@@ -198,10 +200,11 @@ APPENDIX
 ```
 In this example, I am searching for all of the lines that do not have a space in the file `/Cohenetal_CreamSkimming.txt`. This is useful if each paragraph in a volume of text files is labeled with a number and I want a list of all of the paragraphs and its location.
 
+### Command 3
 ```
 $ grep "<string>" --exclude=*.<file type> --exclude-dir=<directory>/
 ```
-This command searches for a string while exluding a specific file or directory. The output will have the lines that contain the string on the right side and its path on the left side.
+This command searches for a string while exluding a specific file or directory. The output will have the lines that contain the string on the right side and its path on the left side. I found this command through ChatGPT.
 
 ```
 $ grep -r "poverty" --exclude-dir=biomed/ --exclude-dir=government/
@@ -223,4 +226,47 @@ plos/pmed.0020235.txt:        time, lack of data on income, poverty, wealth, deb
 plos/pmed.0020247.txt:        underlying conditions of poverty, racism, and sexism that support such oppression [5]. This
 
 ```
-In this example, I am searching for all of the files that have the word `"poverty"` in all of the directories except `biomed/` and `government/`.
+In this example, I am searching for all of the files that have the word `"poverty"` in all of the directories except `biomed/` and `government/`. This is useful when I know that the string I am searching for is not in a specific directory.
+
+Example 2:
+```
+$ grep -r "poverty" --exclude=*.txt
+---------------------------------------------------
+
+```
+In this example, I am searching for all of the non-`.txt` files that contain the word `"poverty"`. Since all of the files are `.txt`, nothing is produced in the output.
+
+### Command 4
+```
+$ grep "<string>\|<string>" /file/
+```
+With this command, I can search for multiple strings in a file. `\|` is similar to the `or` statement. The output will have the lines that contain at least one of the specified strings on the left and its path on the right. I found this command on this [website.](https://linuxize.com/post/grep-multiple-patterns/)
+
+Example 1:
+```
+$ grep -r "poverty a\|health and d" plos
+---------------------------------------------------
+plos/journal.pbio.0020047.txt:        its boundaries with health and disease.
+plos/pmed.0020067.txt:          poverty and poor sanitation.
+plos/pmed.0020067.txt:        difficult to eliminate or eradicate in areas of poverty and poor sanitation [19]. Indeed,
+plos/pmed.0020216.txt:        international response from the health and development community. We argue that there is
+plos/pmed.0020216.txt:        causes of poverty and inequality, which give rise to the phenomenon of migration and
+
+```
+In this example, I am searching for any instances of the strings `"poverty a"` or `"health and d` in the directory `plos/`. This command is useful if I have a large volume of texts and I need to find specific topics.
+
+Example 2:
+```
+$ grep "risky\|partner" */pmed.0020216.txt
+---------------------------------------------------
+HIV-positive [9]. Needle sharing and risky sexual behaviour is common in this group. The
+        [27]. The vast majority of young men, about 80%, who had sex with non-regular partners felt
+        condoms, and a belief that careful selection of partners offers sufficient protection [27].
+        are particularly conducive to risky needle sharing [34]. Unlike IDUs in other Nepalese
+        their small amounts of money to buy drugs. Sexual intercourse with casual partners occurs,
+        extent of the AIDS epidemic in Nepal will depend upon rates at which sexual partners are
+        proportion of the general population that has multiple and concurrent sexual partners.
+        risky behaviour [27]. A culturally specific approach to HIV prevention is needed that
+        adjacent fields need to interact more and partner with each other, and there needs to be
+```
+In this example, I am searching for any lines that have the words `"risky"` or `"partner"` in the file `pmed.0020216.txt/`. This command is useful if I need to find multiple words in a book/text online.
