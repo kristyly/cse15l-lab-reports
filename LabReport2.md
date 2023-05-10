@@ -45,7 +45,8 @@ class StringServer {
 
 Methods Used: handleRequest()
 * URL: localhost/2434
-* parameters[1]: This is Message 1 - Hello!
+* parameters[1]: This is Message 1 - Hello! 
+** The main purpose of this variable is to make 
 * ArrayAsString: "This is Message 1 - Hello!"
 
 ![Image](2.1.2.jpg)
