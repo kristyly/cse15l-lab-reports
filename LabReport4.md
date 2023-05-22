@@ -12,7 +12,7 @@ Note: I copied my username from a sticky note with my log-in info. Additionally,
 
 Keys Pressed:
 
-`<CTRL-C>` "git clone https://github.com/ucsd-cse15l-s23/lab7" `<CTRL-V` `<ENTER>`
+`<CTRL-C>` "git clone https://github.com/ucsd-cse15l-s23/lab7" `<CTRL-V>` `<ENTER>`
 
 Note: I copied and pasted this code from the Lab 7 page.
 
