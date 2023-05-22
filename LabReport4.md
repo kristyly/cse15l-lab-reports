@@ -12,7 +12,7 @@ Note: I copied my username from a sticky note with my log-in info. Additionally,
 
 Keys Pressed:
 
-`<CTRL-C>` "git clone https://github.com/ucsd-cse15l-s23/lab7" `<CTRL-V` `<ENTER`
+`<CTRL-C>` "git clone https://github.com/ucsd-cse15l-s23/lab7" `<CTRL-V` `<ENTER>`
 
 Note: I copied and pasted this code from the Lab 7 page.
 
@@ -21,9 +21,9 @@ Note: I copied and pasted this code from the Lab 7 page.
 
 Keys Pressed:
 
-`c` `d` ` ` `l` `a` `b` `7` `<ENTER>`
+`c` `d`    `l` `a` `b` `7` `<ENTER>`
 
-`b` `a` `s` `h` ` ` `t` `e` `s` `t` `.` `s` `h` `<ENTER>`
+`b` `a` `s` `h`    `t` `e` `s` `t` `.` `s` `h` `<ENTER>`
 
 Note: Since the file is located in the lab7 repository, I needed to change my working directory to lab7. The command to run the program is also located in `test.sh`, so I decided to run the bash script instead of typing out the command.
 
@@ -32,7 +32,7 @@ Note: Since the file is located in the lab7 repository, I needed to change my wo
 
 Keys Pressed:
 
-`v` `i` `m` ` ` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<ENTER>`
+`v` `i` `m`    `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<ENTER>`
 
 Note: I am using vim to edit `ListExamples.java` through the terminal.
 
@@ -74,7 +74,7 @@ Note: This saves and exits the file.
 
 Keys Pressed:
 
-`<UP>` 2 times `<Enter>`
+`<UP>` 2 times `<ENTER>`
 
 Note: Since I had already used the command `bash test.sh`, I just needed to use the up arrow twice to find the same command to run.
 
