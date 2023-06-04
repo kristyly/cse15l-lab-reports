@@ -1,4 +1,6 @@
 # Lab Report 4
+Note: I have changed the font of my VSCode since my first submission, so some of the images have a different font.
+
 ## Step 1: Log into ieng6
 ![Image](4.1.jpg)
 Keys Pressed:
@@ -12,9 +14,7 @@ Note: I copied my username from a sticky note with my log-in info. Additionally,
 
 Keys Pressed:
 
-`<CTRL-C>` "git clone https://github.com/ucsd-cse15l-s23/lab7" `<CTRL-V>` `<ENTER>`
-
-Note: I copied and pasted this code from the Lab 7 page.
+"git clone https://github.com/kristyly/lab7.git" `<ENTER>`
 
 ## Step 3: Run the tests, demonstrating that they fail
 ![Image](4.3.jpg)
@@ -78,7 +78,16 @@ Keys Pressed:
 
 Note: Since I had already used the command `bash test.sh`, I just needed to use the up arrow twice to find the same command to run.
 
+## Step 5: Commit & Push
 
+![Image](4.11.jpg)
 
+Keys Pressed:
 
+`git commit -a` "Successful!" `:` `w` `q`
 
+Note: To commit to the gitHub repository, I used the command above and used "Successful!" as my commit message. Then, I saved and exited using the command `:wq`
+
+![Image](4.12.jpg)
+
+Note: Based on the message above, the resulting change was successfully pushed.
