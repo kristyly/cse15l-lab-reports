@@ -17,6 +17,8 @@ Keys Pressed:
 
 `git clone` https://github.com/kristyly/lab7.git" `<ENTER>`
 
+Note: This clones the lab7 repository from my github account.
+
 ## Step 3: Run the tests, demonstrating that they fail
 ![Image](4.3.jpg)
 
