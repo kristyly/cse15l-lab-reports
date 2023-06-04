@@ -15,7 +15,7 @@ Note: I copied my username from a sticky note with my log-in info. Additionally,
 
 Keys Pressed:
 
-"git clone https://github.com/kristyly/lab7.git" `<ENTER>`
+`git clone` https://github.com/kristyly/lab7.git" `<ENTER>`
 
 ## Step 3: Run the tests, demonstrating that they fail
 ![Image](4.3.jpg)
