@@ -3,6 +3,7 @@ Note: I have changed the font of my VSCode since my first submission, so some of
 
 ## Step 1: Log into ieng6
 ![Image](4.1.jpg)
+
 Keys Pressed:
 
 `s` `s` `h` `<SPACE>` `<CTRL-C>` "cs15lsp23ii@ieng6.ucsd.edu" `<CTRL-V>` `<ENTER>`
